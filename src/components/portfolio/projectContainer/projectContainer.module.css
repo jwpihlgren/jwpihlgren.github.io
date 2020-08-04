@@ -1,0 +1,87 @@
+.centered{
+    margin: 4rem auto;
+    width: 65%;
+}
+
+.h1{
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.25rem;
+    line-height: 3.3125rem;
+    display: flex;
+    letter-spacing: 0.245em;
+    margin-bottom: 1rem;
+
+}
+.h2{
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.25rem;
+    line-height: 2.0625rem;
+    letter-spacing: 0.245em;
+    margin-right: 2rem;
+    min-width: 200px;
+}
+
+.h3{
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+
+}
+
+.section{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5rem;
+}
+
+@media (max-width: 990px){
+    .section{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-bottom: 5rem;
+    }
+
+    .h2{
+        padding-bottom: 1rem;
+        min-width: 100px;
+    }
+
+    .hr{
+        width: 50%; 
+    }
+}
+
+.textblock{
+    align-self: flex-end;
+    max-width: 65rem;
+/*  font-family: Quattrocento; */
+    font-family: Roboto, sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 27px;
+    text-align: justify;
+/*     letter-spacing: 0.05em; */
+}
+
+.mainImage{
+    margin-bottom: 5.6875rem
+}
+
+.textImage{
+    margin-bottom: 2.6875rem;
+}
+
+.hr{
+width: 30%;
+margin: 0 auto;
+height: 0px;
+border: 1px solid #E1A103;
+margin-bottom: 5rem;
+}

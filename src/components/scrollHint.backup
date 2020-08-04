@@ -1,0 +1,32 @@
+import React, {useEffect, useState} from "react";
+import styles from './scrollHint.module.css';
+
+function isElementInViewport(element) {
+    
+    const rect = element.current.getBoundingClientRect()
+    return (
+        rect.top >= 0 &&
+        rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) 
+        )
+}
+
+function ScrollHint(props) {
+    const [elements, setElements] = useState([]);
+    useEffect(() => {
+        setElements(props.locations)
+        console.log(props.visibility);
+    },[props.locations, props.visibility]) 
+
+    return(
+        <div className={styles.wrapper}>
+            {elements.map((location, i) => {
+                if (isElementInViewport(location)) {
+                    return <div key={i} className={styles.circleFill} onClick={() => props.onClick(0)} ></div>
+                }   
+                return <div key={i} className={styles.circle} onClick={() => props.onClick(0)} ></div>
+            })}
+        </div>
+    );  
+}
+
+export default ScrollHint;
