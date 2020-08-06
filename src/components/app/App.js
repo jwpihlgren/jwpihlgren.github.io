@@ -56,12 +56,12 @@ function App() {
     <>
       {/* ROUTING */}
       <Switch>
-        <Route path="/projects/:id">
+        <Route path="/react-portfolio/projects/:id">
           <PortfolioNavbar logo={logo} links={navItems} getRef={homeRef} locations={sectionRefs}  />
-          <ProjectContainer path={"/projects/"} details={resumeData.cards.projects} />
+          <ProjectContainer path={"/react-portfolio/projects/"} details={resumeData.cards.projects} />
           <Footer data={footer}/>
         </Route>
-        <Route path="/" render={()=> {
+        <Route path="/react-portfolio/" render={()=> {
           return(
           <>
             <PortfolioNavbar logo={logo} links={navItems} getRef={homeRef} locations={sectionRefs} />

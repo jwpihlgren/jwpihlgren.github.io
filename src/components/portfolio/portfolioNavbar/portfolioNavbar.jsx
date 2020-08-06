@@ -16,9 +16,11 @@ function Navbar(props){
         
         },[props.locations, props.getRef])
 
+        console.log(props.links.home.path);
+
         return(
         <nav className={styles.nav} ref={props.getRef}>
-            <Link as={"a"} to={"/"} className={styles.h1}>{props.logo}</Link>
+            <Link as={"a"} to={props.links.home.path} className={styles.h1}>{props.logo}</Link>
             <div className={styles.linksWrapper}>
                 <div className={toggleButtonOpen ? styles.linksOpen : styles.linksClosed}>  
                     {Object.keys(props.links).map((linkName, i) =>{

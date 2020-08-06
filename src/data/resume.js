@@ -1,19 +1,19 @@
 const resumeData = {
   navItems: {
     home: {
-      path: "/",
+      path: "/react-portfolio/",
       hash: "",
     },
     portfolio: { 
-      path: "/",
+      path: "/react-portfolio/",
       hash: "#portfolio"
     },
     resume: { 
-      path: "/",
+      path: "/react-portfolio/",
       hash: "#resume"
     },
     competences: {
-      path: "/",
+      path: "/react-portfolio/",
       hash: "#competences"
     },
   },
