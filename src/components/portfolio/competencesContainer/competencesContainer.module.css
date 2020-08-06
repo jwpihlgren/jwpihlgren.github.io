@@ -1,6 +1,6 @@
 .centered {
     margin: 4rem auto;
-    width: 65%;
+    max-width: 65%;
 }
 
 .heading1 {
@@ -14,6 +14,7 @@
 }
 
 .gridCompetences {
+    margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
     grid-template-rows: repeat(auto, 100px);
