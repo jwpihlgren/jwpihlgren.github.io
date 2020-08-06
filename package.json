@@ -1,6 +1,6 @@
 {
   "homepage": "https://jwpihlgren.github.io/react-portfolio/",
-  "name": "trendingmovies",
+  "name": "react-portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
