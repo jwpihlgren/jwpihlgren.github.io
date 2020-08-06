@@ -1,0 +1,33 @@
+.blocks {
+    display: flex;
+    flex-direction: column;
+    max-width: 375px
+}
+
+.apart {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1.5rem 0;
+}
+
+.title {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+  color: #202020;
+  text-transform: uppercase;
+  letter-spacing: 0.075rem;
+}
+
+.linkItem {
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    color:  #EEBB07;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.linkItem:hover {
+    color: #CCA10A;
+}

@@ -1,0 +1,29 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    max-width: 130px;
+    max-height: 130px;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+  }
+
+.svg {
+    padding: 1rem;
+    padding-top: 6px;
+    max-width: 108px;
+    max-height: 108px;
+  }
+  
+.span {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    display: block;
+    text-align: center;
+    letter-spacing: 0.1em;
+    font-size: 1rem;
+    padding-bottom: 1rem;
+    color: #EEBB07; 
+  };
