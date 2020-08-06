@@ -41,4 +41,9 @@
     grid-row-gap: 2rem;
     justify-items: center;
   }
+
+  .centered {
+    margin: 4rem auto;
+    max-width: 97%;
+  }
 }
