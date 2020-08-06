@@ -121,6 +121,25 @@ const resumeData = {
         cardtitle: "trending Movies",
         href: "trending",
         svg: "trending.svg",
+        details: {
+          title: "Trending movies",
+          subtitle:
+            "A web app that fetches trending movies from an API",
+          img: "trending-movies2.jpg",
+          paragraphs: [
+            {
+              title: "The problem",
+              content:
+                "Universeum is a science center created by actors in both the government as well as the private sector. They aim at teaching both children and adults about science and technology by means of play and wonder. Recently Universeum has perceived a decline in the interest of technology in teenagers compared to their younger peers. In order to turn this decline around, Universeum and Chalmers University of Technology started collaborating, letting Master’s students in Interaction Design, design for learning in specific themes using interactive means. This time the theme was showing the invisible. The main goals were to both increase interest in technology as well as providing a learning oppurtunity  as visitors to the science park engaged with the items of the exihibition.",
+            },
+            {
+              title: "The other thing",
+              content:
+                "Universeum is a science center created by actors in both the government as well as the private sector. They aim at teaching both children and adults about science and technology by means of play and wonder. Recently Universeum has perceived a decline in the interest of technology in teenagers compared to their younger peers. In order to turn this decline around, Universeum and Chalmers University of Technology started collaborating, letting Master’s students in Interaction Design, design for learning in specific themes using interactive means. This time the theme was showing the invisible. The main goals were to both increase interest in technology as well as providing a learning oppurtunity  as visitors to the science park engaged with the items of the exihibition.",
+              img: "trending-movies2.jpg",
+              },
+          ],
+        },
       },
     ],
   },
