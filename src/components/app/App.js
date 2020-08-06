@@ -25,15 +25,22 @@ function App() {
   const [portfolioVisibility, setPortfolioVisibility] = useState(false);
   const [resumeVisibility, setResumeVisibility] = useState(false);
   const [competencesVisibility, setCompetencesVisibility] = useState(false);
+  const [windowWidth, setWindowWidth] = useState(1);
+  
+  const homeRef = useRef(null);
   const portfolioRef = useRef(null);
   const resumeRef = useRef(null);
   const competencesRef = useRef(null);
+  const sectionRefs = {home: homeRef, portfolio: portfolioRef, resume: resumeRef, competences: competencesRef};
+  const sectionVisibility = {portfolio: portfolioVisibility, resume: resumeVisibility, competences: competencesVisibility}
 
   useEffect(() => {
     /* Add scroll listener */
     document.addEventListener("scroll", () => {
       if(window.pageYOffset !== scrollVal) setScroll(window.pageYOffset);
     });
+
+    setWindowWidth(window.innerWidth);
 
     /* API CALL */
     const fetchData = async () => {
@@ -51,18 +58,18 @@ function App() {
     });
   }, [scrollVal, portfolioVisibility, resumeVisibility, competencesVisibility]);
 
+ const sideNavOnClick = (element) => {
+   console.log(windowWidth);
+   element.scrollIntoView({ 
+     block: "end",
+     behavior: "smooth"
 
- const sideNavOnClick = (ref) => {
-   console.log(ref);
-    window.scrollTo( {
-      top: ref.offsetTop - ref.offsetTop / 3,
-      left: 0,
+   })
+/*     window.scrollTo( {
+      top: element.offsetTop - element.offsetTop / (windowWidth > 720 ? 3 : 1),
       behavior: "smooth",
-    })
+    }) */
  }
-
- const sectionRefs = [portfolioRef, resumeRef, competencesRef];
- const sectionVisibility = {portfolio: portfolioVisibility, resume: resumeVisibility, competences: competencesVisibility}
 
   return (
     <>
@@ -77,36 +84,39 @@ function App() {
           <Movies movies={data} path={"/projects/trending/"} />
         </Route>
         <Route path="/projects/:id">
-          <PortfolioNavbar logo={logo} links={navItems}  />
+          <PortfolioNavbar logo={logo} links={navItems} getRef={homeRef} locations={sectionRefs}  />
           <ProjectContainer path={"/projects/"} details={resumeData.cards.projects} />
           <Footer data={footer}/>
         </Route>
-        <Route path="/">
-          <PortfolioNavbar logo={logo} links={navItems}/>
-          <ScrollHint onClick={sideNavOnClick} locations={sectionRefs} visibility={sectionVisibility}  />
-          <PortolioContainer
-            title={"Portfolio"}
-            cards={cards}
-            getRef={portfolioRef}
-            onChange={ (isVisible) => {
-              setPortfolioVisibility(isVisible)}}
-          />
-          <ResumeContainer
-            title={"Resume"}
-            resume={resume}
-            getRef={resumeRef}
-            onChange={ (isVisible) => {
-              setResumeVisibility(isVisible)}}
-          />
-          <CompetenceContainer
-            title={"Competences"}
-            competences={competences}
-            getRef={competencesRef}
-            onChange={ (isVisible) => {
-              setCompetencesVisibility(isVisible)}}
-          />
-          <Footer data={footer}/>
-        </Route>
+        <Route path="/" render={()=> {
+          return(
+          <>
+            <PortfolioNavbar logo={logo} links={navItems} getRef={homeRef} locations={sectionRefs} />
+            <ScrollHint onClick={sideNavOnClick} locations={sectionRefs} visibility={sectionVisibility}  />
+            <PortolioContainer
+              title={navItems.portfolio.hash.replace("#", "")}
+              cards={cards}
+              getRef={portfolioRef}
+              onChange={ (isVisible) => {
+                setPortfolioVisibility(isVisible)}}
+            />
+            <ResumeContainer
+              title={navItems.resume.hash.replace("#", "")}
+              resume={resume}
+              getRef={resumeRef}
+              onChange={ (isVisible) => {
+                setResumeVisibility(isVisible)}}
+            />
+            <CompetenceContainer
+              title={navItems.competences.hash.replace("#", "")}
+              competences={competences}
+              getRef={competencesRef}
+              onChange={ (isVisible) => {
+                setCompetencesVisibility(isVisible)}}
+            />
+            <Footer data={footer}/>
+          </>)
+        }}/>
       </Switch>
     </>
   );

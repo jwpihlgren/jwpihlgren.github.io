@@ -10,6 +10,7 @@
     font-weight: 400;
     letter-spacing: 0.245em;
     text-align: center;
+    text-transform: capitalize;
   }
 
 .grid {

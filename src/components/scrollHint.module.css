@@ -11,18 +11,21 @@
     margin: 2rem;
     width: 1.5rem;
     height: 1.5rem;
-    border: 1px solid #202020;
+    border: 1px solid #3F3F3F;
     border-radius: 100px;
 }
 
 .circleFill {
+    padding: 2px;
     margin: 2rem;
     width: 1.5rem;
     height: 1.5rem;
-    border: 1px solid #202020;
+    border: 1px solid #3F3F3F;
     border-radius: 100px;
-    background-color: #202020
+    background-color: #3F3F3F;
+    background-clip: content-box;
 }
+
 
 @media (max-width: 720px){
     .wrapper {

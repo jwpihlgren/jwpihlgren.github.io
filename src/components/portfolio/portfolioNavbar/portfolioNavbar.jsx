@@ -1,30 +1,28 @@
-import React, { useState} from "react";
+import React, { useState, useEffect} from "react";
 import NavbarTogglerButton from "../togglerButton/toggler_button";
 import styles from "./portfolioNavbar.module.css";
-import { Link } from "react-router-dom";
+import { HashLink as Link } from 'react-router-hash-link';
 
 function Navbar(props){
 
     const [toggleButtonOpen, setToggleButtonOpen] = useState(false);
-
-    
     const onClick = () => {setToggleButtonOpen(!toggleButtonOpen);
         };
     const onBlur = e =>{
         if(e.relatedTarget) e.relatedTarget.click()
         setToggleButtonOpen(false);
     }
-
-    console.log(props.refs);
-
+    useEffect(() => {
+        
+        },[props.locations, props.getRef])
 
         return(
-        <nav className={styles.nav}>
+        <nav className={styles.nav} ref={props.getRef}>
             <Link as={"a"} to={"/"} className={styles.h1}>{props.logo}</Link>
             <div className={styles.linksWrapper}>
                 <div className={toggleButtonOpen ? styles.linksOpen : styles.linksClosed}>  
                     {Object.keys(props.links).map((linkName, i) =>{
-                        return <Link as={"a"} to={props.links[linkName].hash} className={styles.linkItem}> {linkName} </Link>
+                        return <Link smooth as={"a"} to={`${props.links[linkName].path}${props.links[linkName].hash}`} className={styles.linkItem}> {linkName} </Link>
                     })} 
                 </div>
                 <div className={styles.toggleButton}>

@@ -3,12 +3,13 @@ import React from "react";
 import styles from './portfolioContainer.module.css';
 import VizSensor from 'react-visibility-sensor';
 
+
 function PortfolioContainer(props) {
 
   return (
     <VizSensor partialVisibility minTopValue={100} onChange={props.onChange}>
-    <section className={styles.centered}>
-      <h1 className={styles.heading1} ref={props.getRef}>
+    <section className={styles.centered} id={props.title} ref={props.getRef}>
+      <h1 className={styles.heading1} >
         {props.title}
       </h1>
       <div className={styles.grid}>

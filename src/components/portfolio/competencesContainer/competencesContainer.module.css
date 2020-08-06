@@ -11,6 +11,7 @@
     font-weight: 400;
     text-align: center;
     letter-spacing: 0.245em;
+    text-transform: capitalize;
 }
 
 .gridCompetences {

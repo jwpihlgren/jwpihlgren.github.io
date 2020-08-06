@@ -8,7 +8,7 @@ function ScrollHint(props) {
 
     
     const sectionVisibility = Object.values(props.visibility).reverse().map((_, i) => <div key={i} className={styles.circle} onClick={() => props.onClick(refs.reverse()[i])} ></div>)
-    const refs = props.locations.map(v => v.current);
+    const refs = Object.values(props.locations).map(v => v.current);
 
     for (const [i, v] of Object.values(props.visibility).reverse().entries() ){
         if (v) {

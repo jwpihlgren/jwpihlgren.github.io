@@ -6,15 +6,15 @@ const resumeData = {
     },
     portfolio: { 
       path: "/",
-      hash: "portfolio"
+      hash: "#portfolio"
     },
     resume: { 
       path: "/",
-      hash: "resume"
+      hash: "#resume"
     },
     competences: {
       path: "/",
-      hash: "competences"
+      hash: "#competences"
     },
   },
   logo: "joachim pihlgren",

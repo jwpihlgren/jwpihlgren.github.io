@@ -4,8 +4,7 @@ import './index.css';
 import {BrowserRouter } from 'react-router-dom';
 import 'semantic-ui-css/semantic.min.css';
 import App from './components/app/App';
-import ScrollToTop from "/mnt/c/Users/Aeon-Main/Desktop/trendingmovies/src/components/scrollToTop";
-
+import ScrollToTop from "./components/scrollToTop";
 
 ReactDOM.render(
   <React.StrictMode>

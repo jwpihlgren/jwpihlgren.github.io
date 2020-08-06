@@ -10,7 +10,10 @@ function ProjectCard(props){
                     <div className={styles.title}>{props.cardtitle}</div>
                     <Link to={`projects/${props.href}`} className={styles.linkItem} >{props.linkname} </Link>
                 </div>
-                   <Image src={require('../../../pictures/' + props.svg)} as={"a"} href={`projects/${props.href}`}></Image>
+                <Link as={"a"} to={`projects/${props.href}`}>
+                    <Image src={require('../../../pictures/' + props.svg)} />
+                </Link>
+                   
             </article>
         );
   }
