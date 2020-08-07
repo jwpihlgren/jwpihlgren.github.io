@@ -8,7 +8,7 @@ function CompetenceContainer(props) {
 
     return (
       <VizSensor partialVisibility minTopValue={-300} onChange={props.onChange} >
-      <section className={styles.centered} id={props.title} ref={props.getRef}>
+      <section className={styles.centering} id={props.title} ref={props.getRef}>
         <h1 className={styles.heading1} >{props.title}</h1>
         <div className={styles.gridCompetences}>
           {props.competences.map((res, index) => (
