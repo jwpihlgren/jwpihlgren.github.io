@@ -203,7 +203,7 @@ const resumeData = {
       svg: "js.svg",
     },
     {
-      skill: "Web Deb Bootcamp",
+      skill: "Web Dev Bootcamp",
       svg: "html5.svg",
     },
     {
