@@ -40,8 +40,9 @@
     .footer{
         flex-direction: column;
         align-items: center;
-        margin-right: 0rem;
-        max-width:98%
+        margin: 3rem auto;
+        margin-bottom: 1rem;
+        max-width:90%
     }
     .email{
         display: flex;
