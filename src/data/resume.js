@@ -23,6 +23,31 @@ const resumeData = {
     linkname: "read more",
     projects: [
       {
+        cardtitle: "Cross-device UI",
+        href: "xdi",
+        svg: "xdi.svg",
+        details: {
+          title: "Cross-device UI",
+          subtitle:
+            "A socio-spatial experience where sight is substituted with ultrasonic range finders and vibration motors.",
+          img: "cybox.jpg",
+          carousel: ["xdi_1.jpg", "noisemeter.jpg"],
+          paragraphs: [
+            {
+              title: "The problem",
+              content:
+                "Universeum is a science center created by actors in both the government as well as the private sector. They aim at teaching both children and adults about science and technology by means of play and wonder. Recently Universeum has perceived a decline in the interest of technology in teenagers compared to their younger peers. In order to turn this decline around, Universeum and Chalmers University of Technology started collaborating, letting Master’s students in Interaction Design, design for learning in specific themes using interactive means. This time the theme was showing the invisible. The main goals were to both increase interest in technology as well as providing a learning oppurtunity  as visitors to the science park engaged with the items of the exihibition.",
+            },
+            {
+              title: "The other thing",
+              content:
+                "Universeum is a science center created by actors in both the government as well as the private sector. They aim at teaching both children and adults about science and technology by means of play and wonder. Recently Universeum has perceived a decline in the interest of technology in teenagers compared to their younger peers. In order to turn this decline around, Universeum and Chalmers University of Technology started collaborating, letting Master’s students in Interaction Design, design for learning in specific themes using interactive means. This time the theme was showing the invisible. The main goals were to both increase interest in technology as well as providing a learning oppurtunity  as visitors to the science park engaged with the items of the exihibition.",
+              img: "cybox.jpg",
+              },
+          ],
+        },
+      },
+      {
         cardtitle: "cyborg box",
         href: "cyborg",
         svg: "maze.svg",
