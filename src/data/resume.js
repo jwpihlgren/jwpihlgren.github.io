@@ -25,7 +25,7 @@ const resumeData = {
       {
         cardtitle: "Cross-device UI",
         href: "xdi",
-        svg: "xdi.svg",
+        svg: "xdi2.svg",
         details: {
           title: "Cross-device UI",
           subtitle:
@@ -216,36 +216,59 @@ const resumeData = {
 
   competences: [
     {
+      skill: "Self taught",
+      svg: "figma.svg",
+      title: "Figma",
+    },
+    {
       skill: "15 HEC",
       svg: "java.svg",
+      title: "Java",
     },
     {
       skill: "Self taught",
       svg: "react.svg",
+      title: "React.js",
     },
     {
       skill: "7.5 HEC",
       svg: "js.svg",
+      title: "JavaScript",
     },
     {
       skill: "Web Dev Bootcamp",
       svg: "html5.svg",
+      title: "HTML 5",
     },
     {
       skill: "Web Dev Bootcamp",
       svg: "css.svg",
+      title: "CSS 3",
     },
     {
       skill: "7.5 HEC",
       svg: "android.svg",
+      title: "Android",
     },
     {
       skill: "Self taught",
       svg: "git.svg",
+      title: "Git",
     },
     {
       skill: "Self taught",
       svg: "python.svg",
+      title: "Python",
+    },
+    {
+      skill: "Self taught",
+      svg: "bootstrap.svg",
+      title: "Boostrap",
+    },
+    {
+      skill: "Self taught",
+      svg: "semantic.svg",
+      title: "Semantic UI",
     },
   ],
   footer: {
