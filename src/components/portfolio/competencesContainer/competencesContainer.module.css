@@ -1,10 +1,14 @@
-/* .centered {
+.testClass{
+    color: black;
+}
+
+.centered {
     margin: 4rem auto;
     max-width: 65%;
-} */
+}
 
 .heading1 {
-    margin: 4.21875rem auto;
+   /*  margin: 4.21875rem auto; */
     font-size: 2.25rem;
     font-family: 'Oswald', sans-serif;
     font-weight: 400;
@@ -14,10 +18,10 @@
 }
 
 .gridCompetences {
-    margin: 0 auto;
+    margin-top: 4rem;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
-    grid-template-rows: repeat(auto-fill, 1fr);
+    grid-template-rows: repeat(auto, 1fr);
     grid-column-gap: 3.5rem;
     grid-row-gap: 5rem; 
     justify-items: center;
@@ -30,13 +34,12 @@
         max-width: 90%;
       }
     .gridCompetences {
+        margin-top: 2rem;
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
-        grid-template-rows: repeat(auto-fill, 1fr);
+        grid-template-rows: repeat(auto, 1fr);
         grid-column-gap: 0rem;
         grid-row-gap: 3rem; 
         justify-items: center;
     }
-
-
 }
