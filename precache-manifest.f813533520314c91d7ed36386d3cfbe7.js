@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d85b43208c407cbe6796f37a2d183cd9",
+    "revision": "07828cf7b6d677ae2d52f987c18ba9ac",
     "url": "/react-portfolio/index.html"
   },
   {
-    "revision": "43583f0a5b35dba860db",
+    "revision": "187915b425e6fb83b195",
     "url": "/react-portfolio/static/css/2.203ba526.chunk.css"
   },
   {
-    "revision": "42ea810c080346000d1d",
+    "revision": "e83821d789c40c9b5732",
     "url": "/react-portfolio/static/css/main.389aeb36.chunk.css"
   },
   {
-    "revision": "43583f0a5b35dba860db",
-    "url": "/react-portfolio/static/js/2.627cc199.chunk.js"
+    "revision": "187915b425e6fb83b195",
+    "url": "/react-portfolio/static/js/2.fd797b03.chunk.js"
   },
   {
     "revision": "4d47ffde3dc69784e8e23fd910817ef8",
-    "url": "/react-portfolio/static/js/2.627cc199.chunk.js.LICENSE.txt"
+    "url": "/react-portfolio/static/js/2.fd797b03.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "42ea810c080346000d1d",
-    "url": "/react-portfolio/static/js/main.4acc1ecd.chunk.js"
+    "revision": "e83821d789c40c9b5732",
+    "url": "/react-portfolio/static/js/main.0079b794.chunk.js"
   },
   {
     "revision": "aff33cef9dbb8787d6b3",
@@ -38,6 +38,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "2b939d4580dc7cd05711712dc0f119b3",
     "url": "/react-portfolio/static/media/android.2b939d45.svg"
+  },
+  {
+    "revision": "15b52680ce9e39d96a534cbc458d2a9d",
+    "url": "/react-portfolio/static/media/bootstrap.15b52680.svg"
   },
   {
     "revision": "13db00b7a34fee4d819ab7f9838cc428",
@@ -174,6 +178,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "33d2781fe264e456c80ea02db13411e1",
     "url": "/react-portfolio/static/media/renter_backdrop2.33d2781f.jpg"
+  },
+  {
+    "revision": "4172b9c1a6c5f78bb2e0f346c9d5b666",
+    "url": "/react-portfolio/static/media/semantic.4172b9c1.svg"
   },
   {
     "revision": "3704cc31fce36f16bd8263aa1eb2d779",
