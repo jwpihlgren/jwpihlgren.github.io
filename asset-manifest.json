@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.389aeb36.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.0079b794.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.0079b794.chunk.js.map",
+    "main.js": "/react-portfolio/static/js/main.b0b64003.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.b0b64003.chunk.js.map",
     "runtime-main.js": "/react-portfolio/static/js/runtime-main.213b1880.js",
     "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.213b1880.js.map",
     "static/css/2.203ba526.chunk.css": "/react-portfolio/static/css/2.203ba526.chunk.css",
-    "static/js/2.fd797b03.chunk.js": "/react-portfolio/static/js/2.fd797b03.chunk.js",
-    "static/js/2.fd797b03.chunk.js.map": "/react-portfolio/static/js/2.fd797b03.chunk.js.map",
+    "static/js/2.8dd8c636.chunk.js": "/react-portfolio/static/js/2.8dd8c636.chunk.js",
+    "static/js/2.8dd8c636.chunk.js.map": "/react-portfolio/static/js/2.8dd8c636.chunk.js.map",
     "index.html": "/react-portfolio/index.html",
-    "precache-manifest.f813533520314c91d7ed36386d3cfbe7.js": "/react-portfolio/precache-manifest.f813533520314c91d7ed36386d3cfbe7.js",
+    "precache-manifest.da748dbbbd21d899277331edb1f7e117.js": "/react-portfolio/precache-manifest.da748dbbbd21d899277331edb1f7e117.js",
     "service-worker.js": "/react-portfolio/service-worker.js",
     "static/css/2.203ba526.chunk.css.map": "/react-portfolio/static/css/2.203ba526.chunk.css.map",
     "static/css/main.389aeb36.chunk.css.map": "/react-portfolio/static/css/main.389aeb36.chunk.css.map",
-    "static/js/2.fd797b03.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.fd797b03.chunk.js.LICENSE.txt",
+    "static/js/2.8dd8c636.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.8dd8c636.chunk.js.LICENSE.txt",
     "static/media/Watchface.jpg": "/react-portfolio/static/media/Watchface.66f212fb.jpg",
     "static/media/ai.svg": "/react-portfolio/static/media/ai.1def60be.svg",
     "static/media/android.svg": "/react-portfolio/static/media/android.2b939d45.svg",
@@ -41,13 +41,14 @@
     "static/media/trending.svg": "/react-portfolio/static/media/trending.8efc5cb0.svg",
     "static/media/watch.svg": "/react-portfolio/static/media/watch.54cce682.svg",
     "static/media/xdi.svg": "/react-portfolio/static/media/xdi.2bcc7899.svg",
+    "static/media/xdi2.svg": "/react-portfolio/static/media/xdi2.365f99b8.svg",
     "static/media/xdi_1.jpg": "/react-portfolio/static/media/xdi_1.2464a238.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.213b1880.js",
     "static/css/2.203ba526.chunk.css",
-    "static/js/2.fd797b03.chunk.js",
+    "static/js/2.8dd8c636.chunk.js",
     "static/css/main.389aeb36.chunk.css",
-    "static/js/main.0079b794.chunk.js"
+    "static/js/main.b0b64003.chunk.js"
   ]
 }
