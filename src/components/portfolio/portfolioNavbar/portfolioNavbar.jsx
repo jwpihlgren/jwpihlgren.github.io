@@ -8,8 +8,10 @@ function Navbar(props){
     const [toggleButtonOpen, setToggleButtonOpen] = useState(false);
     const onClick = () => {setToggleButtonOpen(!toggleButtonOpen);
         };
+
     const onBlur = e =>{
-        if(e.relatedTarget) e.relatedTarget.click()
+        e.persist();
+         if (e.relatedTarget) e.relatedTarget.click()
         setToggleButtonOpen(false);
     }
     useEffect(() => {
@@ -22,7 +24,8 @@ function Navbar(props){
             <div className={styles.linksWrapper}>
                 <div className={toggleButtonOpen ? styles.linksOpen : styles.linksClosed}>  
                     {Object.keys(props.links).map((linkName, i) =>{
-                        return <Link smooth as={"a"} to={`${props.links[linkName].path}${props.links[linkName].hash}`} className={styles.linkItem}> {linkName} </Link>
+                       /*  {console.log("ontouchstart" in window ? "touchstart" : "click");} */
+                        return <Link smooth as={"a"} to={`${props.links[linkName].path}${props.links[linkName].hash}`} tabIndex="0"  className={styles.linkItem}> {linkName} </Link>
                     })} 
                 </div>
                 <div className={styles.toggleButton}>
