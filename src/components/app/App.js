@@ -10,6 +10,7 @@ import ScrollHint from "../scrollHint";
 import ProjectContainer from "../portfolio/projectContainer/projectContainer";
 import Footer from "../portfolio/footer/footer";
 import resumeData from "../../data/resume.js";
+import CenteredLayout from "../centeredLayout/centeredLayout";
 
 
 const {navItems, logo, cards, resume, competences, footer} = resumeData;
@@ -58,28 +59,37 @@ function App() {
       <Switch>
         <Route path="/react-portfolio/projects/:id">
           <PortfolioNavbar logo={logo} links={navItems} getRef={homeRef} locations={sectionRefs}  />
-          <ProjectContainer path={"/react-portfolio/projects/"} details={resumeData.cards.projects} />
-          <Footer data={footer}/>
+          <CenteredLayout>
+            <ProjectContainer path={"/react-portfolio/projects/"} details={resumeData.cards.projects} />
+          </CenteredLayout>
+          <CenteredLayout>
+            <Footer data={footer}/>
+          </CenteredLayout>
         </Route>
         <Route path="/react-portfolio/" render={()=> {
           return(
           <>
             <PortfolioNavbar logo={logo} links={navItems} getRef={homeRef} locations={sectionRefs} />
             <ScrollHint onClick={sideNavOnClick} locations={sectionRefs} visibility={sectionVisibility}  />
-            <PortolioContainer
-              title={navItems.portfolio.hash.replace("#", "")}
-              cards={cards}
-              getRef={portfolioRef}
-              onChange={ (isVisible) => {
-                setPortfolioVisibility(isVisible)}}
-            />
-            <ResumeContainer
-              title={navItems.resume.hash.replace("#", "")}
-              resume={resume}
-              getRef={resumeRef}
-              onChange={ (isVisible) => {
-                setResumeVisibility(isVisible)}}
-            />
+            <CenteredLayout>
+              <PortolioContainer
+                title={navItems.portfolio.hash.replace("#", "")}
+                cards={cards}
+                getRef={portfolioRef}
+                onChange={ (isVisible) => {
+                  setPortfolioVisibility(isVisible)}}
+              />
+            </CenteredLayout>
+            <CenteredLayout>
+              <ResumeContainer
+                title={navItems.resume.hash.replace("#", "")}
+                resume={resume}
+                getRef={resumeRef}
+                onChange={ (isVisible) => {
+                  setResumeVisibility(isVisible)}}
+              />
+            </CenteredLayout>
+            <CenteredLayout>
             <CompetenceContainer
               title={navItems.competences.hash.replace("#", "")}
               competences={competences}
@@ -87,7 +97,10 @@ function App() {
               onChange={ (isVisible) => {
                 setCompetencesVisibility(isVisible)}}
             />
-            <Footer data={footer}/>
+            </CenteredLayout>
+            <CenteredLayout>
+              <Footer data={footer}/>
+            </CenteredLayout>
           </>)
         }}/>
       </Switch>

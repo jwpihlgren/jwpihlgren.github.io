@@ -1,9 +1,4 @@
 
-.centered {
-  margin: 4rem auto;
-  max-width: 65%;
-}
-
 .heading1 {
   margin: 2rem auto;
   font-size: 2.25rem;
@@ -42,8 +37,4 @@
     justify-items: center;
   }
 
-  .centered {
-    margin: 4rem auto;
-    max-width: 90%;
-  }
 }

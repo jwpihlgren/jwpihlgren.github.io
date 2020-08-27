@@ -1,6 +1,4 @@
 .footer{
-    margin: 4rem auto;
-    max-width: 65%;
     display: flex;
     justify-content: space-between;
 }
@@ -40,9 +38,6 @@
     .footer{
         flex-direction: column;
         align-items: center;
-        margin: 3rem auto;
-        margin-bottom: 1rem;
-        max-width:90%
     }
     .email{
         display: flex;

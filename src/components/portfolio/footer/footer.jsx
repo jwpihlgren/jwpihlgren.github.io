@@ -16,7 +16,7 @@ return(
 
         <div className={styles.handles}>
             {Object.values(rest).map((entry, index) => {
-                return (<a className={style(index)} target={"_blank"} rel="noopener noreferrer" href={`${entry.href}`}>{entry.text}</a>)
+                return (<a className={style(index)} target={"_blank"} rel="noopener noreferrer" href={`${entry.href}`} key={entry + index.toString()}>{entry.text}</a>)
             })}
         </div>
     </div>

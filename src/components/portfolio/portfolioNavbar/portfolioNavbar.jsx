@@ -25,7 +25,7 @@ function Navbar(props){
                 <div className={toggleButtonOpen ? styles.linksOpen : styles.linksClosed}>  
                     {Object.keys(props.links).map((linkName, i) =>{
                        /*  {console.log("ontouchstart" in window ? "touchstart" : "click");} */
-                        return <Link smooth as={"a"} to={`${props.links[linkName].path}${props.links[linkName].hash}`} tabIndex="0"  className={styles.linkItem}> {linkName} </Link>
+                        return <Link smooth as={"a"} to={`${props.links[linkName].path}${props.links[linkName].hash}`} tabIndex="0"  className={styles.linkItem} key={linkName + i.toString()}> {linkName}</Link>
                     })} 
                 </div>
                 <div className={styles.toggleButton}>

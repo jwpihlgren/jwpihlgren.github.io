@@ -12,7 +12,7 @@ export default function ProjectContainer(props){
     const {title, subtitle} = details
 
     return (
-        <div className={styles.centered}>
+        <div>
             <p className={styles.h1}>{title}</p>
             <p className={styles.h3}>{subtitle}</p>
             {details.carousel ? 
