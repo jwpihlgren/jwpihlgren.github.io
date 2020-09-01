@@ -29,6 +29,14 @@
     background-color: #202020 ;
 }
 
+.linkItem:active{
+    outline: none;
+}
+
+.linkItem:focus{
+    outline: none;
+}
+
 .linksOpen{
         display:flex;
         flex-direction: column;
@@ -97,5 +105,5 @@
         right: 0;
         top: 0;
         box-shadow: 0 0 0 0;  
-    }  
+    }
 }
