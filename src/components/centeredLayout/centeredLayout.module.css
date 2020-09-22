@@ -1,0 +1,11 @@
+.centered{
+    margin: 4rem auto;
+    max-width: 65%;
+}
+
+@media (max-width: 720px){
+    .centered{
+        margin: 2rem auto;
+        max-width: 90%;
+    }
+}
