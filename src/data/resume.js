@@ -124,7 +124,7 @@ const resumeData = {
             {
               title: "Ideate",
               content:
-                `We were all very eager to start the project and we all had different vague ideas of what the installation should be. In order to come up with a set of ideas, we all wrote down and refined our ideas separately, each bringing three ideas to a workshop. During this workshop, each member pitched their ideas and wrote it down on a post it. When all ideas had been pitched, we used @dot-voting@ https://www.nngroup.com/articles/dot-voting/ to select the three best ideas. When the ideas were tangible enough that we could decide how feasible they were and how well they aligned with the requirements, we decided on one of them.`,
+                `We were all very eager to start the project and we all had different vague ideas of what the installation should be. In order to come up with a set of ideas, we all wrote down and refined our ideas separately, each bringing three ideas to a workshop. During this workshop, each member pitched their ideas and wrote it down on a post it. When all ideas had been pitched, we used @dot voting@ https://www.nngroup.com/articles/dot-voting/ to select the three best ideas. When the ideas were tangible enough that we could decide how feasible they were and how well they aligned with the requirements, we decided on one of them.`,
               img: "cybox/breadboard.jpg",
               },
             {
