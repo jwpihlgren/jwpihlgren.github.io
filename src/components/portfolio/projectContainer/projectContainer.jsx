@@ -30,10 +30,12 @@ export default function ProjectContainer(props){
     )
 }
 
-const LINK_REGEX = /@.*@ http?s:\/\/\S*(?=\s)/g;
+const LINK_REGEX = /@\w*\s?\w*@\shttps?:\/\/\S*/g;
+// const LINK_REGEX = /@\S*@\shttps?:\/\/\S*/g;
+/* const LINK_REGEX = /@.*@ http?s:\/\/\S*(?=\s)/g; */
 const NAME_REGEX = /(?<=@).*(?=@)/
 /* const nameRegex = /@\S*(?=\s)/; */
-const URL_REGEX = /http?s:\/\/.*/
+const URL_REGEX = /https?:\/\/.*/
 /* const urlRegex = /http?s:\/\/\S*(?=\s)/; */
 
 function TextSection(props) {
@@ -41,11 +43,11 @@ function TextSection(props) {
         const {title, content, img, link} = props.paragraphDetails
 
         const linkMatches = [...content.matchAll(LINK_REGEX)];
+        console.log(linkMatches)
         
         let parsedContent = content;
         if(linkMatches.length > 0){
             linkMatches.map((linkAsText) => {
-                console.log(linkAsText[0]);
                 parsedContent = parsedContent.replace(linkAsText[0], `<a href="${linkAsText[0].match(URL_REGEX)}" target={"_blank"} rel="noopener noreferrer">${linkAsText[0].match(NAME_REGEX)[0]}</a>`)
                 return "";
             })        

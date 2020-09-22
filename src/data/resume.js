@@ -29,7 +29,7 @@ const resumeData = {
         details: {
           title: "Cross-device UI",
           subtitle:
-            "A socio-spatial experience where sight is substituted with ultrasonic range finders and vibration motors.",
+            "A system of interfaces for Cross-Device Interaction in Building Information Models",
           img: "cybox.jpg",
           carousel: ["XDI/xdi_1.jpg", "XDI/designprocess.jpg", "XDI/insight.jpg", "XDI/roomspaces.jpg", "XDI/FlödesdiagramSpaces.jpg", "XDI/sketches.jpg", "XDI/mobile_Start.jpg", "XDI/mobilescreens.jpg", "XDI/desktop_start.jpg", "XDI/scan_barcode.jpg", "XDI/experimentdesign.jpg"],
           paragraphs: [
@@ -97,17 +97,61 @@ const resumeData = {
           subtitle:
             "A socio-spatial experience where sight is substituted with ultra sonic range finders and vibration motors.",
           img: "cybox.jpg",
+          carousel: ["cybox/finishedmaze.jpg","cybox/finalhelmet.jpg","cybox/ideation.jpg","cybox/designprocess.jpg","cybox/breadboard.jpg","cybox/tapemaze.jpg","cybox/woodmaze.jpg","cybox/largemaze.jpg","cybox/firsthelmet.jpg"],
           paragraphs: [
             {
-              title: "The problem",
+              title: "Summary",
               content:
-                "Universeum is a science center created by actors in both the government as well as the private sector. They aim at teaching both children and adults about science and technology by means of play and wonder. Recently Universeum has perceived a decline in the interest of technology in teenagers compared to their younger peers. In order to turn this decline around, Universeum and Chalmers University of Technology started collaborating, letting Master’s students in Interaction Design, design for learning in specific themes using interactive means. This time the theme was showing the invisible. The main goals were to both increase interest in technology as well as providing a learning oppurtunity  as visitors to the science park engaged with the items of the exihibition.",
+                `@IDXPO@ http://www.idxpo.se/2019/ is an exhibition in collaboration between Universeum @Universeum@ https://www.universeum.se/en/ and Chalmers University of Technology. Every year students from the Interaction Design and Technologies program display different projects under a theme. 2019 me and a team of fellow students designed and built our contribution for the theme ‘Showing the invisible’. Our contribution was a full-sized maze which visitors had to navigate. The catch? They had to do it blindfolded and were not allowed to touch the walls. Instead we provided them with a helmet fitted with super sonic range finders hooked up to vibration motors. As the distance to a wall decreased, the vibration increased.`,
             },
             {
-              title: "The other thing",
+              title: "Introduction",
               content:
-                `Universeum is a @jwpihlgren.io https://jwpihlgren.github.io some words between @TEST https://www.gp.se science center created by actors in both the government as well as the private sector. They aim at teaching both children and adults about science and technology by means of play and wonder. Recently Universeum has perceived a decline in the interest of technology in teenagers compared to their younger peers. In order to turn this decline around, Universeum and Chalmers University of Technology started collaborating, letting Master’s students in Interaction Design, design for learning in specific themes using interactive means. This time the theme was showing the invisible. The main goals were to both increase interest in technology as well as providing a learning oppurtunity  as visitors to the science park engaged with the items of the exihibition.`,
-              img: "cybox.jpg",
+                `Each year @Universeum@ https://www.universeum.se/en/ and Chalmers University of Technology put together an exhibition that is on display for one weekend every year. This exhibition is made up out installments put together by students in Interaction Design and Technologies. 2019, the theme was ‘Showing the invisible’. This is me and my fellow student designer’s contribution. </br></br>
+                For the theme, we could explain any phenomena that was not visible to the naked eye. This could be on a macro scale such as things in the universe too far to see; a micro scale, such as things with in the body which are too small to see; or a human scale, things that are human but are not visible or abstract. The lot of us coming from a background in Cognitive Sciences, we immediately looked to the senses. </br></br>
+                Beside the theme, we had one other major requirement.  @Universeum@ https://www.universeum.se/en/ has seen a steady decline in interest in technology and natural sciences, in mature youth, compared to their younger peers. They want to maintain and increase this interest and the installations in the exhibition should aid in this endeavor. Universeum being a scientific organization, there was also the requirement that visitors should learn something.
+                `,
+              img: "cybox/ideation.jpg",
+              },
+            {
+              title: "Empathize",
+              content:
+                `Based on the requirements for the project, we defined our target group as teens 15-17-year-old. We were also provided with information that show a discrepancy in interest between gender, males reported a higher overall interest compared to females. In order to achieve the goal of overall increased interest, we decided that our installment should be equally engaging for all visitors and that care should be taken during the design process to make sure this was the case.</br></br>
+                In order to understand our target demographic, we conducted interviews with students in a high school in Gothenburg. We also studied their curriculum in order to understand their current knowledge and what remains to be covered.
+                `,
+              img: "cybox/designprocess.jpg",
+              },
+            {
+              title: "Ideate",
+              content:
+                `We were all very eager to start the project and we all had different vague ideas of what the installation should be. In order to come up with a set of ideas, we all wrote down and refined our ideas separately, each bringing three ideas to a workshop. During this workshop, each member pitched their ideas and wrote it down on a post it. When all ideas had been pitched, we used @dot-voting@ https://www.nngroup.com/articles/dot-voting/ to select the three best ideas. When the ideas were tangible enough that we could decide how feasible they were and how well they aligned with the requirements, we decided on one of them.`,
+              img: "cybox/breadboard.jpg",
+              },
+            {
+              title: "The idea",
+              content:
+                `We wanted to teach visitors about senses. While eyes are visible, sight is not. We also wanted to show that the human senses are arbitrary, sight is not necessary to perceive range or objects. Bats do it by echolocation, producing subsonic sounds and perceiving their echo. There is a whole philosophical debate about whether humans can know what it is like being a bat, google ‘Thomas Nagel what is it like to be a bat’ for more on this.
+                At the same time, the human brain is remarkedly plastic in how it interprets incoming signals such as sound or light. Studies have shown that the part of the brain that is thought to process visual signals can also interpret vibrations. This is embodied in a man, @Neil Harbisson@ https://www.cyborgarts.com/ , who can experience color despite being colorblind, by vibrations emitted to his skull.
+                So, we thought, why not let people experience by themselves. By reading distance to objects using ultra-sonic range finders and using that value as intensity for a vibration motor, visitors can experience something akin to what bats do.
+                `,
+              img: "cybox/tapemaze.jpg",
+              },
+            {
+              title: "Prototype",
+              content:
+                `The first step was to make sure that we had sufficient know how of coding and electrical wiring as well as could get a hold of the right components. We created a working prototype, replacing the ultra-sonic range finder with a piezo-electric speaker for sake of speed. To test the concept, we faked a maze by taping a maze-like structure on the floor, letting a blindfolded design member traverse the maze while holding wooden boards in front of the ultra-sonic range finder to simulate walls. The results: However slowly, it is possible to navigate a maze using only on ultra-sonic range finder and one piezo. <br><br/>
+                The second step had two major parts. 1) Design and build the maze, full size. 2) Make the range-finder wearable and hook it up to a vibration motor. We sketched the maze on paper as well as built the maze in small scale to see how the pieces would fit together. After this we built the maze life-size. This allowed us to test the next iteration of the range-finder setup.<br><br/>
+                We needed to make the range-finder setup wearable. To do this we modified an old bicycle helmet to which we attached the equipment. Because we now had a full-sized maze, we could test the prototype live. These tests showed that it was difficult handling 90-degree corners and that it was hard to blindfold wearers in a manner that could remove the whole setup in a quick and easy manner. The solution was to add two more rangefinders, each with their own vibration motor. These were placed with on in the middle and one on each side of the head, close to 90 degrees from the middle one. For wearability, we went with a welder’s mask which covered the face, was put on the head with only an adjustable head band and with which we could easily block the wearers vision.
+                `,
+              img: "cybox/largemaze.jpg", // @IMAGE@ Breadboard @IMAGE@ Tape Maze  @IMAGE@ THE MAZE UNPAINTED
+              },
+            {
+              title: "The final design",
+              content:
+                `We went with a vapor wave color scheme, using pink and blue with white text. This aimed at moving away from connotations of cyborg which are traditionally very male inclined such as Robocop. At the time vapor wave was also a trending color scheme, increasing the possibility of sitting well with our target demographic. </br></br>
+                During our iterations and evaluations of the concept (both helmet and maze), we got feedback that indicated that it would be fun to be able to see visitors as they were inside the maze. To accomplish this, we set up a webcam inside the maze which produced a live feed on a screen on the outside. This feed was overlaid with vaporwave cyborg visuals and mirrored to avoid letting users understand the layout of the maze from the outside. This made traversing the maze a social experience as groups of friends could watch as one of them went in to the unknown. 
+                `,
+              img: "cybox/firsthelmet.jpg", //@IMAGE@ PAINTED MAZE @IMAGE@ THE TV
               },
           ],
         },
@@ -123,16 +167,11 @@ const resumeData = {
           img: "noisemeter.jpg",
           paragraphs: [
             {
-              title: "The problem",
+              title: "To be written",
               content:
-                "Universeum is a science center created by actors in both the government as well as the private sector. They aim at teaching both children and adults about science and technology by means of play and wonder. Recently Universeum has perceived a decline in the interest of technology in teenagers compared to their younger peers. In order to turn this decline around, Universeum and Chalmers University of Technology started collaborating, letting Master’s students in Interaction Design, design for learning in specific themes using interactive means. This time the theme was showing the invisible. The main goals were to both increase interest in technology as well as providing a learning oppurtunity  as visitors to the science park engaged with the items of the exihibition.",
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc lacinia, mauris nec tincidunt pellentesque, justo est fringilla erat, in sagittis mi enim in libero. Donec blandit ornare sapien, ut finibus tellus fermentum ac. Vestibulum pretium nisi sed quam laoreet rutrum. Nullam eu magna vitae nunc scelerisque finibus vitae auctor massa. Etiam porta posuere lacus, ac suscipit eros volutpat posuere. Suspendisse vulputate velit consequat tortor scelerisque, id maximus orci placerat. Maecenas pulvinar erat iaculis mollis interdum. Maecenas sit amet erat luctus, varius tortor ac, efficitur orci.",
             },
-            {
-              title: "The other thing",
-              content:
-                "Universeum is a science center created by actors in both the government as well as the private sector. They aim at teaching both children and adults about science and technology by means of play and wonder. Recently Universeum has perceived a decline in the interest of technology in teenagers compared to their younger peers. In order to turn this decline around, Universeum and Chalmers University of Technology started collaborating, letting Master’s students in Interaction Design, design for learning in specific themes using interactive means. This time the theme was showing the invisible. The main goals were to both increase interest in technology as well as providing a learning oppurtunity  as visitors to the science park engaged with the items of the exihibition.",
-              img: "Watchface.jpg",
-              },
+  
           ],
         },
       },
@@ -147,15 +186,11 @@ const resumeData = {
           img: "car.jpg",
           paragraphs: [
             {
-              title: "The problem",
+              title: "To be written",
               content:
-                "Universeum is a science center created by actors in both the government as well as the private sector. They aim at teaching both children and adults about science and technology by means of play and wonder. Recently Universeum has perceived a decline in the interest of technology in teenagers compared to their younger peers. In order to turn this decline around, Universeum and Chalmers University of Technology started collaborating, letting Master’s students in Interaction Design, design for learning in specific themes using interactive means. This time the theme was showing the invisible. The main goals were to both increase interest in technology as well as providing a learning oppurtunity  as visitors to the science park engaged with the items of the exihibition.",
+                "Aliquam pulvinar, diam ut condimentum feugiat, ante velit tincidunt sapien, quis hendrerit augue lacus rhoncus erat. Nullam fringilla sagittis lectus sit amet tempor. Phasellus quis urna scelerisque, faucibus ante nec, ullamcorper diam. Curabitur laoreet orci felis, vitae tempor sem accumsan sed. Donec eget tristique nibh. Maecenas sollicitudin justo nec risus cursus pharetra. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla metus ex, scelerisque sed ultricies nec, condimentum vitae tortor. Cras tempus mollis ex quis accumsan. Mauris ut auctor enim, sed lobortis tortor. Phasellus tempor quam vel elit convallis venenatis. Sed suscipit nunc vel nulla porta, a placerat mi ornare.",
             },
-            {
-              title: "The other thing",
-              content:
-                "Universeum is a science center created by actors in both the government as well as the private sector. They aim at teaching both children and adults about science and technology by means of play and wonder. Recently Universeum has perceived a decline in the interest of technology in teenagers compared to their younger peers. In order to turn this decline around, Universeum and Chalmers University of Technology started collaborating, letting Master’s students in Interaction Design, design for learning in specific themes using interactive means. This time the theme was showing the invisible. The main goals were to both increase interest in technology as well as providing a learning oppurtunity  as visitors to the science park engaged with the items of the exihibition.",
-              },
+  
           ],
         },
       },
