@@ -36,6 +36,23 @@
     max-width: 1200px;
 }
 
+.link{
+    color: #202020;
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.link:hover{
+    color: #9FA1A1;
+   
+}
+
 @media (max-width: 720px){
     .section{
         display: flex;

@@ -16,10 +16,10 @@ export default function ProjectContainer(props){
             <p className={styles.h1}>{title}</p>
             <p className={styles.h3}>{subtitle}</p>
             {details.carousel ? 
-            <Carousel showArrows={true} infiniteLoop={true} showStatus={false} showIndicator={true} showThumbs={true}>
-                {details.carousel.map(img => <img  alt="" src={require(`../../../pictures/jpgs/${img}`)}/>)}
-            </Carousel>
-            : <Image className={styles.mainImage} src={require(`../../../pictures/jpgs/${details.img}`)}/>}
+                <Carousel showArrows={true} infiniteLoop={true} showStatus={false} showIndicator={true} showThumbs={true}>
+                    {details.carousel.map(img => <img  alt="" src={require(`../../../pictures/jpgs/${img}`)}/>)}
+                </Carousel> :
+                <Image className={styles.mainImage} src={require(`../../../pictures/jpgs/${details.img}`)}/>}
             
             {details.paragraphs.map((paragraph) => {
                 return(
@@ -30,16 +30,33 @@ export default function ProjectContainer(props){
     )
 }
 
+const LINK_REGEX = /@.*@ http?s:\/\/\S*(?=\s)/g;
+const NAME_REGEX = /(?<=@).*(?=@)/
+/* const nameRegex = /@\S*(?=\s)/; */
+const URL_REGEX = /http?s:\/\/.*/
+/* const urlRegex = /http?s:\/\/\S*(?=\s)/; */
+
 function TextSection(props) {
     if(props.paragraphDetails) {
-        const {title, content, img} = props.paragraphDetails
+        const {title, content, img, link} = props.paragraphDetails
+
+        const linkMatches = [...content.matchAll(LINK_REGEX)];
+        
+        let parsedContent = content;
+        if(linkMatches.length > 0){
+            linkMatches.map((linkAsText) => {
+                console.log(linkAsText[0]);
+                parsedContent = parsedContent.replace(linkAsText[0], `<a href="${linkAsText[0].match(URL_REGEX)}" target={"_blank"} rel="noopener noreferrer">${linkAsText[0].match(NAME_REGEX)[0]}</a>`)
+                return "";
+            })        
+        }
         return(
             <>
             <div className={styles.section}>
                 <span className={styles.h2}>{title}</span>
-                <span className={styles.textblock}>{content}</span>
-                
+                <span className={styles.textblock} dangerouslySetInnerHTML={{__html: parsedContent}}/>
             </div>
+            {link ? <a className={styles.link} href={link.url} target={"_blank"} rel="noopener noreferrer">{link.name}</a> : ""}
             {img ? <Image className={styles.textImage} size='huge' centered src={require(`../../../pictures/jpgs/${img}`)}/> : ""}
             <hr className={styles.hr}/>
             </>

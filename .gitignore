@@ -8,6 +8,8 @@
 # testing
 /coverage
 
+/src/pictures/jpgs/XDI.backup
+
 # production
 /build
 
