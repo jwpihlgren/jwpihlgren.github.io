@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1088b3751dfa72f9d0c9d5a9e3f756d6",
+    "revision": "7b58a630dc3bf7d4bb6db54a548f047a",
     "url": "/react-portfolio/index.html"
   },
   {
-    "revision": "09c7d8f28ec409e196c4",
+    "revision": "f121eee4fe2f1c9d842b",
     "url": "/react-portfolio/static/css/2.203ba526.chunk.css"
   },
   {
-    "revision": "8b276058f6c73935c3b1",
+    "revision": "28816aa0a9aeb36371d0",
     "url": "/react-portfolio/static/css/main.2c431b21.chunk.css"
   },
   {
-    "revision": "09c7d8f28ec409e196c4",
-    "url": "/react-portfolio/static/js/2.845997b2.chunk.js"
+    "revision": "f121eee4fe2f1c9d842b",
+    "url": "/react-portfolio/static/js/2.12560d38.chunk.js"
   },
   {
     "revision": "4d47ffde3dc69784e8e23fd910817ef8",
-    "url": "/react-portfolio/static/js/2.845997b2.chunk.js.LICENSE.txt"
+    "url": "/react-portfolio/static/js/2.12560d38.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "8b276058f6c73935c3b1",
-    "url": "/react-portfolio/static/js/main.b48890ee.chunk.js"
+    "revision": "28816aa0a9aeb36371d0",
+    "url": "/react-portfolio/static/js/main.dbe5c3fe.chunk.js"
   },
   {
     "revision": "aff33cef9dbb8787d6b3",
@@ -72,6 +72,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-portfolio/static/media/brand-icons.e8c322de.woff2"
   },
   {
+    "revision": "f4fc633f90ec0a08a042cc3f3baa3004",
+    "url": "/react-portfolio/static/media/breadboard.f4fc633f.jpg"
+  },
+  {
     "revision": "8a7b45e1fa226801b4926b3feb3ec15e",
     "url": "/react-portfolio/static/media/car.8a7b45e1.jpg"
   },
@@ -112,6 +116,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-portfolio/static/media/designprocess.927ae69d.png"
   },
   {
+    "revision": "f779fe3000a9ebbf34bc2a8c5dd7742b",
+    "url": "/react-portfolio/static/media/designprocess.f779fe30.jpg"
+  },
+  {
     "revision": "139eeb40a93c7e77abdd2118d5f64c81",
     "url": "/react-portfolio/static/media/desktop_start.139eeb40.png"
   },
@@ -130,6 +138,18 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "bf7b81811d8999698aeb06c1aef85433",
     "url": "/react-portfolio/static/media/figma.bf7b8181.svg"
+  },
+  {
+    "revision": "e0d9fefe61fe1f1f7ff3d1a9cab9d548",
+    "url": "/react-portfolio/static/media/finalhelmet.e0d9fefe.jpg"
+  },
+  {
+    "revision": "d13d8ae87127e5d11c718452b0d463e2",
+    "url": "/react-portfolio/static/media/finishedmaze.d13d8ae8.jpg"
+  },
+  {
+    "revision": "d9e0b6eb0e0bead89a04683e37783354",
+    "url": "/react-portfolio/static/media/firsthelmet.d9e0b6eb.jpg"
   },
   {
     "revision": "9c74e172f87984c48ddf5c8108cabe67",
@@ -164,6 +184,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-portfolio/static/media/icons.faff9214.woff"
   },
   {
+    "revision": "2e7e78d56faf8d52df1fc3572b6f11b7",
+    "url": "/react-portfolio/static/media/ideation.2e7e78d5.jpg"
+  },
+  {
     "revision": "8fdbe4b3698ce3aff3503b7bb738ef9b",
     "url": "/react-portfolio/static/media/insight.8fdbe4b3.jpg"
   },
@@ -178,6 +202,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "69cde12c6cec643c05612a5384668333",
     "url": "/react-portfolio/static/media/js.69cde12c.svg"
+  },
+  {
+    "revision": "18f9d70f7f21927eaa5abc39b1fff415",
+    "url": "/react-portfolio/static/media/largemaze.18f9d70f.jpg"
   },
   {
     "revision": "00e848729d34e8f26af92064ba3f621d",
@@ -312,6 +340,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-portfolio/static/media/start_and_profile.e4fda36f.jpg"
   },
   {
+    "revision": "6a911a8ee6b634c6d5e22f85d8a5e291",
+    "url": "/react-portfolio/static/media/tapemaze.6a911a8e.jpg"
+  },
+  {
     "revision": "3704cc31fce36f16bd8263aa1eb2d779",
     "url": "/react-portfolio/static/media/trending-movies2.3704cc31.jpg"
   },
@@ -322,6 +354,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "54cce682ab591aca025c7116b6297bd5",
     "url": "/react-portfolio/static/media/watch.54cce682.svg"
+  },
+  {
+    "revision": "1f0ac98ab7f873f3b66758a687b92161",
+    "url": "/react-portfolio/static/media/woodmaze.1f0ac98a.jpg"
   },
   {
     "revision": "2bcc78996d562b22fc74dfe807be6d13",
