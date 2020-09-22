@@ -1,31 +1,39 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b44d25f7aa7fa0b42d980b52065dfe10",
+    "revision": "1088b3751dfa72f9d0c9d5a9e3f756d6",
     "url": "/react-portfolio/index.html"
   },
   {
-    "revision": "534f1b8799ae16994027",
+    "revision": "09c7d8f28ec409e196c4",
     "url": "/react-portfolio/static/css/2.203ba526.chunk.css"
   },
   {
-    "revision": "8a3c404213f1ab320414",
-    "url": "/react-portfolio/static/css/main.fd8c5473.chunk.css"
+    "revision": "8b276058f6c73935c3b1",
+    "url": "/react-portfolio/static/css/main.2c431b21.chunk.css"
   },
   {
-    "revision": "534f1b8799ae16994027",
-    "url": "/react-portfolio/static/js/2.c1963d89.chunk.js"
+    "revision": "09c7d8f28ec409e196c4",
+    "url": "/react-portfolio/static/js/2.845997b2.chunk.js"
   },
   {
     "revision": "4d47ffde3dc69784e8e23fd910817ef8",
-    "url": "/react-portfolio/static/js/2.c1963d89.chunk.js.LICENSE.txt"
+    "url": "/react-portfolio/static/js/2.845997b2.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "8a3c404213f1ab320414",
-    "url": "/react-portfolio/static/js/main.86e42434.chunk.js"
+    "revision": "8b276058f6c73935c3b1",
+    "url": "/react-portfolio/static/js/main.b48890ee.chunk.js"
   },
   {
     "revision": "aff33cef9dbb8787d6b3",
     "url": "/react-portfolio/static/js/runtime-main.213b1880.js"
+  },
+  {
+    "revision": "80671a86e12ade57918485f113d8fdec",
+    "url": "/react-portfolio/static/media/Flödesdiagram Spaces.80671a86.png"
+  },
+  {
+    "revision": "266619bc4019bc69a5cdbee62d93d8e5",
+    "url": "/react-portfolio/static/media/FlödesdiagramSpaces.266619bc.jpg"
   },
   {
     "revision": "66f212fb05686d1cc8462d8d51e118d7",
@@ -68,8 +76,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-portfolio/static/media/car.8a7b45e1.jpg"
   },
   {
+    "revision": "70f354711e0c5656f8e0a2c3aa9595df",
+    "url": "/react-portfolio/static/media/conventional.70f35471.png"
+  },
+  {
+    "revision": "dede45b594b3eed271bde8f0b2c98afc",
+    "url": "/react-portfolio/static/media/conventional.dede45b5.jpg"
+  },
+  {
     "revision": "3a354fbaf115fc420e8c70de682f8157",
     "url": "/react-portfolio/static/media/css.3a354fba.svg"
+  },
+  {
+    "revision": "9719b94912aec0ea0fd22f9791d7f1c1",
+    "url": "/react-portfolio/static/media/cyborg-3.9719b949.svg"
   },
   {
     "revision": "9abb8af5e62bc750a95fba6ec2cab203",
@@ -82,6 +102,30 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "b5ca71ae2217dbf9229ec2dd82a6d99a",
     "url": "/react-portfolio/static/media/cybox_with_tv.b5ca71ae.jpg"
+  },
+  {
+    "revision": "02f0fa040e776e62a8997ce67f005db7",
+    "url": "/react-portfolio/static/media/designprocess.02f0fa04.jpg"
+  },
+  {
+    "revision": "927ae69dfffbf83d8a48b36514ec219d",
+    "url": "/react-portfolio/static/media/designprocess.927ae69d.png"
+  },
+  {
+    "revision": "139eeb40a93c7e77abdd2118d5f64c81",
+    "url": "/react-portfolio/static/media/desktop_start.139eeb40.png"
+  },
+  {
+    "revision": "b0c84ad6e5f62b0c858160cfdaea2802",
+    "url": "/react-portfolio/static/media/desktop_start.b0c84ad6.jpg"
+  },
+  {
+    "revision": "12f8e6782fb9cb870a3825feb6e5d424",
+    "url": "/react-portfolio/static/media/experimentdesign.12f8e678.png"
+  },
+  {
+    "revision": "13cc3e7edca1dde65677708cbee7ecb8",
+    "url": "/react-portfolio/static/media/experimentdesign.13cc3e7e.jpg"
   },
   {
     "revision": "bf7b81811d8999698aeb06c1aef85433",
@@ -120,6 +164,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-portfolio/static/media/icons.faff9214.woff"
   },
   {
+    "revision": "8fdbe4b3698ce3aff3503b7bb738ef9b",
+    "url": "/react-portfolio/static/media/insight.8fdbe4b3.jpg"
+  },
+  {
+    "revision": "9283f2a71addc9fc7e217264ff29cd75",
+    "url": "/react-portfolio/static/media/insight.9283f2a7.png"
+  },
+  {
     "revision": "f0e06b46ae6734b4ca8202d23dd77915",
     "url": "/react-portfolio/static/media/java.f0e06b46.svg"
   },
@@ -128,8 +180,32 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-portfolio/static/media/js.69cde12c.svg"
   },
   {
+    "revision": "00e848729d34e8f26af92064ba3f621d",
+    "url": "/react-portfolio/static/media/lender_create_and_view.00e84872.jpg"
+  },
+  {
+    "revision": "3e20b0b36a0e11f6d4ef2ec7b20b4d21",
+    "url": "/react-portfolio/static/media/lender_incoming_and_accept.3e20b0b3.jpg"
+  },
+  {
     "revision": "1a8e07edb3c338470206f72d7e2d5922",
     "url": "/react-portfolio/static/media/maze.1a8e07ed.svg"
+  },
+  {
+    "revision": "83a7583f092abc859e4ec5dee5180f3d",
+    "url": "/react-portfolio/static/media/mobile_Start.83a7583f.png"
+  },
+  {
+    "revision": "99ba0b56cecec92dcfb405048c018a9a",
+    "url": "/react-portfolio/static/media/mobile_Start.99ba0b56.jpg"
+  },
+  {
+    "revision": "701518207b3206093467cd04d9d024be",
+    "url": "/react-portfolio/static/media/mobilescreens.70151820.png"
+  },
+  {
+    "revision": "b98268550e4c2f425c0d3ab9d26f3ba4",
+    "url": "/react-portfolio/static/media/mobilescreens.b9826855.jpg"
   },
   {
     "revision": "ada77a5761a04eca4e01a47d52c30141",
@@ -164,6 +240,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-portfolio/static/media/react.a055a332.svg"
   },
   {
+    "revision": "5c3f24cb2a048031f20b50143de6bbad",
+    "url": "/react-portfolio/static/media/relations.5c3f24cb.png"
+  },
+  {
+    "revision": "c6f55e1dcb325341edc0cfa104629689",
+    "url": "/react-portfolio/static/media/relations.c6f55e1d.jpg"
+  },
+  {
     "revision": "6f4867d76232fc0cb989506a10ad1f51",
     "url": "/react-portfolio/static/media/renter.6f4867d7.gif"
   },
@@ -180,8 +264,52 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-portfolio/static/media/renter_backdrop2.33d2781f.jpg"
   },
   {
+    "revision": "6372e0f2beba077e8e0ba47bfa5e16bd",
+    "url": "/react-portfolio/static/media/renter_details_and_rent.6372e0f2.jpg"
+  },
+  {
+    "revision": "012aa72ee56b524722b6a84e236c8c8a",
+    "url": "/react-portfolio/static/media/renter_find.012aa72e.jpg"
+  },
+  {
+    "revision": "bb4bed955ebe7f01436f5962628d1386",
+    "url": "/react-portfolio/static/media/renter_loan_details_and_return.bb4bed95.jpg"
+  },
+  {
+    "revision": "14c4b4019f6d63440af5e57979300249",
+    "url": "/react-portfolio/static/media/renter_request_and_view.14c4b401.jpg"
+  },
+  {
+    "revision": "caf1f54c313be579b3d47c01d8293c48",
+    "url": "/react-portfolio/static/media/roomspaces.caf1f54c.png"
+  },
+  {
+    "revision": "fa73bc9b3e35a223a73833f7db0720cf",
+    "url": "/react-portfolio/static/media/roomspaces.fa73bc9b.jpg"
+  },
+  {
+    "revision": "06da3fa9b078c488f907b91b96c34dbc",
+    "url": "/react-portfolio/static/media/scan_barcode.06da3fa9.png"
+  },
+  {
+    "revision": "2909ead8687c30f411291d3e0f775051",
+    "url": "/react-portfolio/static/media/scan_barcode.2909ead8.jpg"
+  },
+  {
     "revision": "4172b9c1a6c5f78bb2e0f346c9d5b666",
     "url": "/react-portfolio/static/media/semantic.4172b9c1.svg"
+  },
+  {
+    "revision": "7d7888235466d51f36793a0fc7ff4ebf",
+    "url": "/react-portfolio/static/media/sketches.7d788823.jpg"
+  },
+  {
+    "revision": "c944357a2eb12c6f901327ec1f80916a",
+    "url": "/react-portfolio/static/media/sketches.c944357a.png"
+  },
+  {
+    "revision": "e4fda36fcef4fc06536696ad899d57f7",
+    "url": "/react-portfolio/static/media/start_and_profile.e4fda36f.jpg"
   },
   {
     "revision": "3704cc31fce36f16bd8263aa1eb2d779",
@@ -202,6 +330,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "365f99b8b1fc82e163fd7f79672d8df1",
     "url": "/react-portfolio/static/media/xdi2.365f99b8.svg"
+  },
+  {
+    "revision": "2464a238ed492e985a58cd90abd78130",
+    "url": "/react-portfolio/static/media/xdi_1.2464a238.bin"
   },
   {
     "revision": "2464a238ed492e985a58cd90abd78130",
