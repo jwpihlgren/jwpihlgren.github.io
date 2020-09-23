@@ -102,7 +102,7 @@ const resumeData = {
             {
               title: "Summary",
               content:
-                `@IDXPO@ http://www.idxpo.se/2019/ is an exhibition in collaboration between Universeum @Universeum@ https://www.universeum.se/en/ and Chalmers University of Technology. Every year students from the Interaction Design and Technologies program display different projects under a theme. 2019 me and a team of fellow students designed and built our contribution for the theme ‘Showing the invisible’. Our contribution was a full-sized maze which visitors had to navigate. The catch? They had to do it blindfolded and were not allowed to touch the walls. Instead we provided them with a helmet fitted with super sonic range finders hooked up to vibration motors. As the distance to a wall decreased, the vibration increased.`,
+                `@IDXPO@ http://www.idxpo.se/2019/ is an exhibition in collaboration between Universeum @Universeum@ https://www.universeum.se/en/ and Chalmers University of Technology. Every year students from the Interaction Design and Technologies program display different projects under a theme. 2019 me and a team of fellow students designed and built our contribution for the theme ‘Showing the invisible’. Our contribution was a full-sized maze which visitors had to navigate. The catch? They had to do it blindfolded and were not allowed to touch the walls. Instead we provided them with a helmet fitted with ultra-sonic range finders hooked up to vibration motors. As the distance to a wall decreased, the vibration increased.`,
             },
             {
               title: "Introduction",
@@ -165,12 +165,26 @@ const resumeData = {
           subtitle:
             "Concept design and prototype of a smart watch app that record decibel exposure and informs the user when a decibel threshold has been met.",
           img: "noisemeter.jpg",
+          carousel: ["noise/design_vs_impl.jpg", "noise/designs.jpg", "noise/sketch.jpg", "noise/uml.jpg"],
           paragraphs: [
             {
-              title: "To be written",
+              title: "Summary",
               content:
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc lacinia, mauris nec tincidunt pellentesque, justo est fringilla erat, in sagittis mi enim in libero. Donec blandit ornare sapien, ut finibus tellus fermentum ac. Vestibulum pretium nisi sed quam laoreet rutrum. Nullam eu magna vitae nunc scelerisque finibus vitae auctor massa. Etiam porta posuere lacus, ac suscipit eros volutpat posuere. Suspendisse vulputate velit consequat tortor scelerisque, id maximus orci placerat. Maecenas pulvinar erat iaculis mollis interdum. Maecenas sit amet erat luctus, varius tortor ac, efficitur orci.",
-            },
+                "The Noisemeter is a designed and prototyped concept for an ap for wearables which record ambient decibel over time. The concept is based on the fact that exposure to sound becomes hazardous even at lower decibels, if the exposure is prolonged. Where 115 dB is hazardous after 30 seconds of exposure, 85 dB for eight hours could also damage your hearing. While 115db is likely to be immediately perceived as hazardous, 85dB might ‘go under the radar’. Specially if one’s attention is focused elsewhere, such as conversation in a crowded bar. The app aims at solving this by recording the dB over time with the option to get a notification if the average dB exceeds the threshold for a certain time limit. However, this is not the only benefit from using the app. Studies have shown that noisy environments can increase fatigue. By being conscious of the exposure to sound over time, users can make decisions that in the long run reduces fatigue due to noise exposure.",
+              img: "noise/designs.jpg"
+              },
+            {
+              title: "What is it",
+              content:
+                `This is the answer to a group project in mobile computing. We ideated, designed and prototyped, in code, a wearable app for smartwatches. The app records dB by taking samples every thirty seconds, each thirty second measurement representing one data point. These datapoints are then drawn as lines emitting from the center of the screen, going outwards. The length of the line is relative to the dB value. Longer is higher. Depending on the settings, the user can either see values for the current hour, making the lines an approximation of how late in the hour it is; or the user can see values for a 12 hour period, providing insight into the average dB during the day or night. This also serves as an approximation of the current hour.`,
+              img: "noise/sketch.jpg"
+              },
+            {
+              title: "How did we do it",
+              content:
+                `We follow a common design thinking design process with empathize, define, ideate and prototype phases. Emphasis was put on ideate and prototype as we had already decided on an idea before the project started. Because a working prototype in code was a requirement for the course, we divided the team into two parts, design and implementation. Design produced deliverables and requirements for implementation which then implemented them in code. During this, design iterated on the design, adding features and making design changes to improve the overall design. These changes were then handed over to implementation and so on until deadline.`,
+              img: "noise/design_vs_impl.jpg"
+              },
   
           ],
         },
