@@ -57,16 +57,16 @@ function App() {
     <>
       {/* ROUTING */}
       <Switch>
-        <Route path="/react-portfolio/projects/:id">
+        <Route path="projects/:id">
           <PortfolioNavbar logo={logo} links={navItems} getRef={homeRef} locations={sectionRefs}  />
           <CenteredLayout>
-            <ProjectContainer path={"/react-portfolio/projects/"} details={resumeData.cards.projects} />
+            <ProjectContainer path={"projects/"} details={resumeData.cards.projects} />
           </CenteredLayout>
           <CenteredLayout>
             <Footer data={footer}/>
           </CenteredLayout>
         </Route>
-        <Route path="/react-portfolio/" render={()=> {
+        <Route path="/" render={()=> {
           return(
           <>
             <PortfolioNavbar logo={logo} links={navItems} getRef={homeRef} locations={sectionRefs} />
