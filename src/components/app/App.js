@@ -57,10 +57,10 @@ function App() {
     <>
       {/* ROUTING */}
       <Switch>
-        <Route path="projects/:id">
+        <Route path="/projects/:id">
           <PortfolioNavbar logo={logo} links={navItems} getRef={homeRef} locations={sectionRefs}  />
           <CenteredLayout>
-            <ProjectContainer path={"projects/"} details={resumeData.cards.projects} />
+            <ProjectContainer path={"/projects/"} details={resumeData.cards.projects} />
           </CenteredLayout>
           <CenteredLayout>
             <Footer data={footer}/>
