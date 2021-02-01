@@ -276,6 +276,14 @@ const resumeData = {
 
   resume: [
     {
+      title: "IT Consultant",
+      company: "Sigma Young Talent",
+      city: "Gothenburg",
+      country: "Sweden",
+      startYear: "2020",
+      endYear: "Present",
+    },
+    {
       title: "Interaction Design M. Sc",
       company: "Chalmers University of Technology",
       city: "Gothenburg",
