@@ -383,6 +383,16 @@ const resumeData = {
       svg: "semantic.svg",
       title: "Semantic UI",
     },
+    {
+      skill: "Self taught",
+      svg: "angular.svg",
+      title: "Angular",
+    },
+    {
+      skill: "Self taught",
+      svg: "typescript.svg",
+      title: "Typescript",
+    },
   ],
   footer: {
     copyright: `© Copyright 2020 Joachim Pihlgren`,
