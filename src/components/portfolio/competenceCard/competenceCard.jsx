@@ -1,5 +1,5 @@
 import React from "react";
-import { Image} from 'semantic-ui-react';
+import { Image } from 'semantic-ui-react';
 import styles from './competenceCard.module.css'
 
 function CompetenceCard(props) {

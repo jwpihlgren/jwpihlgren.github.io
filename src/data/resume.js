@@ -276,12 +276,26 @@ const resumeData = {
 
   resume: [
     {
+      title: "UX Designer",
+      company: "Värderingsdata",
+      city: "Gothenburg",
+      country: "Sweden",
+      startYear: "2021",
+      endYear: "Present",
+    },    {
       title: "IT Consultant",
-      company: "Sigma Young Talent",
+      company: "Värderingsdata via Nexer Group",
+      city: "Gothenburg",
+      country: "Sweden",
+      startYear: "2021",
+      endYear: "2021",
+    },    {
+      title: "IT Consultant",
+      company: "Värderingsdata via Sigma Young Talent",
       city: "Gothenburg",
       country: "Sweden",
       startYear: "2020",
-      endYear: "Present",
+      endYear: "2021",
     },
     {
       title: "Interaction Design M. Sc",
