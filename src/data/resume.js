@@ -368,7 +368,7 @@ const resumeData = {
     },
   ],
   footer: {
-    copyright: `© Copyright 2020 Joachim Pihlgren`,
+    copyright: `© Copyright 2021 Joachim Pihlgren`,
     email: {
       text: `j.w.pihlgren[at]gmail.com`,
       href: `mailto:j.w.pihlgren@gmail.com`,
