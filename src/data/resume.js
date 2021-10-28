@@ -308,14 +308,14 @@ const resumeData = {
       startYear: "2021",
       endYear: "Present",
     },    {
-      title: "IT Consultant",
+      title: "UX Designer",
       company: "Värderingsdata via Nexer Group",
       city: "Gothenburg",
       country: "Sweden",
       startYear: "2021",
       endYear: "2021",
     },    {
-      title: "IT Consultant",
+      title: "UX Designer",
       company: "Värderingsdata via Sigma Young Talent",
       city: "Gothenburg",
       country: "Sweden",
