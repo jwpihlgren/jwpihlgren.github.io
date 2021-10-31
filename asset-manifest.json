@@ -1,20 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.11d2e6da.chunk.css",
-    "main.js": "/static/js/main.b0c2b1f6.chunk.js",
-    "main.js.map": "/static/js/main.b0c2b1f6.chunk.js.map",
+    "main.css": "/static/css/main.be45f602.chunk.css",
+    "main.js": "/static/js/main.10e8b4c4.chunk.js",
+    "main.js.map": "/static/js/main.10e8b4c4.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.e312f208.js",
     "runtime-main.js.map": "/static/js/runtime-main.e312f208.js.map",
     "static/css/2.edfc11b6.chunk.css": "/static/css/2.edfc11b6.chunk.css",
-    "static/js/2.f3881750.chunk.js": "/static/js/2.f3881750.chunk.js",
-    "static/js/2.f3881750.chunk.js.map": "/static/js/2.f3881750.chunk.js.map",
+    "static/js/2.85bf31ce.chunk.js": "/static/js/2.85bf31ce.chunk.js",
+    "static/js/2.85bf31ce.chunk.js.map": "/static/js/2.85bf31ce.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.6cb04dd5e02b743aca8d4eafdde3f7ab.js": "/precache-manifest.6cb04dd5e02b743aca8d4eafdde3f7ab.js",
+    "precache-manifest.3203adab25fab8c8b8cf35bcc454e9a6.js": "/precache-manifest.3203adab25fab8c8b8cf35bcc454e9a6.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.edfc11b6.chunk.css.map": "/static/css/2.edfc11b6.chunk.css.map",
-    "static/css/main.11d2e6da.chunk.css.map": "/static/css/main.11d2e6da.chunk.css.map",
-    "static/js/2.f3881750.chunk.js.LICENSE.txt": "/static/js/2.f3881750.chunk.js.LICENSE.txt",
+    "static/css/main.be45f602.chunk.css.map": "/static/css/main.be45f602.chunk.css.map",
+    "static/js/2.85bf31ce.chunk.js.LICENSE.txt": "/static/js/2.85bf31ce.chunk.js.LICENSE.txt",
     "static/media/FlödesdiagramSpaces.jpg": "/static/media/FlödesdiagramSpaces.266619bc.jpg",
+    "static/media/HG.png": "/static/media/HG.08a3f39a.png",
+    "static/media/HG_Small.png": "/static/media/HG_Small.2ad443d7.png",
+    "static/media/Owner.png": "/static/media/Owner.23f82d02.png",
+    "static/media/Owner_Small.png": "/static/media/Owner_Small.467ab179.png",
+    "static/media/Prop.png": "/static/media/Prop.7cad3048.png",
+    "static/media/Prop_Small.png": "/static/media/Prop_Small.1e2290da.png",
+    "static/media/Search.png": "/static/media/Search.c4a57734.png",
+    "static/media/Search_Small.png": "/static/media/Search_Small.5b8a03ec.png",
     "static/media/Watchface.jpg": "/static/media/Watchface.66f212fb.jpg",
     "static/media/ai.svg": "/static/media/ai.1def60be.svg",
     "static/media/android.svg": "/static/media/android.2b939d45.svg",
@@ -83,8 +91,8 @@
   "entrypoints": [
     "static/js/runtime-main.e312f208.js",
     "static/css/2.edfc11b6.chunk.css",
-    "static/js/2.f3881750.chunk.js",
-    "static/css/main.11d2e6da.chunk.css",
-    "static/js/main.b0c2b1f6.chunk.js"
+    "static/js/2.85bf31ce.chunk.js",
+    "static/css/main.be45f602.chunk.css",
+    "static/js/main.10e8b4c4.chunk.js"
   ]
 }
