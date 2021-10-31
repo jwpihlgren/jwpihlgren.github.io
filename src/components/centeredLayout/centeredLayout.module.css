@@ -1,6 +1,6 @@
 .centered{
     margin: 4rem auto;
-    max-width: 65%;
+    max-width: min(65%, 1200px);
 }
 
 @media (max-width: 720px){

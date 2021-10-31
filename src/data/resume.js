@@ -30,20 +30,37 @@ const resumeData = {
           title: "Redesigning VD Pro",
           subtitle:
             "A Real estate analysis and management information system",
-          img: "noname.jpg",
-          carousel: [],
+          img: "vdpro/Prop.png",
+          carousel: ["vdpro/Search.png", "vdpro/Prop.png", "vdpro/Owner.png", "vdpro/HG.png"],
           paragraphs: [
             {
               title: "Project description",
               content:
-                `In this ongoing project, my colleague, and UX-Designer in crime, and I redesign the real estate analysis and management information system "VD Pro". 
-                Aimed at preserving the sound foundation while working to increase the User Experience to meet modern standards,
-                 we work closely with the product owner and the developers in a user centric design processes, iteratively making the product better.
-                 We routinely engage our users to gain insight in to their world in order to create valuable solutions. We also conduct democratic
-                acticivies to spread our insight to the whole company and harness the potential of the collective experience of a company
-                with over 30 years in the trade.
+                `
+                In this ongoing project, I redesign the real estate analysis and management information system "VD Pro". Aiming to preserving the sound foundation while working to increase the User Experience to meet modern standards, I work closely with the product owner, a part time UX resource and the developers in a user centric design process, iteratively making the product better. We routinely engage our users to gain insight into their world to create valuable solutions. We also conduct democratic activities to spread our insight to the whole company and harness the potential of the collective experience of a company with over 30 years in the trade.
                 `,
-            }
+            },
+            {
+              title: "What is VD Pro",
+              content:
+                `
+                VD Pro is a web-based tool to look up and analyze any of the around 3.3 million real estate properties in Sweden. Users can directly access any property and read up on its current state as well as take part of visualisations and key values provided to aid decision making. Users can also find properties that match certain criteria to get a better understanding of the real estate market. The tool also comes with a property valuation tool for properties. This makes VD Pro a powerful tool that attract many kinds of users with different needs. 
+                `,
+            },
+            {
+              title: "Skills I have honed",
+              content:
+                `
+                During my time here, I have gained experience in designing for web, using- and improving on a design system, conducting interviews and contextual inquiry, managing workshops to analyze data, user interface design and usability testing. Besides the experience gathered from designing for the web, I have designed the behavior and look & feel of search functionality aimed specifically to enable users to find relevant results across multiple categories with large volumes of data. This while maintaining the ability to quickly scan search results. What is unique to this context is that results that are similar to the intended result are not relevant, only the intended result, but we do not know beforehand exactly what information the user have access to specify their query.
+                `,
+            },
+            {
+              title: "What I am Currently Working on",
+              content:
+                `
+                Now I am looking for ways to enhance the way users analyze the real estate marker. This is a complex task which requires both the ability to narrow down a selection of properties and to understand how this selection relates to other properties as well as the state of the selection. This involves providing users with an intuitive way of creating such selections as well as building the prerequisites to query the selection and visualize existing relationships.
+                `,
+            },
           ],
         },
       },
@@ -181,7 +198,7 @@ const resumeData = {
           ],
         },
       },
-      {
+/*       {
         cardtitle: "noisemeter",
         href: "noisemeter",
         svg: "watch.svg",
@@ -213,27 +230,66 @@ const resumeData = {
   
           ],
         },
-      },
+      }, */
       {
-        cardtitle: "ai quiz game",
+        cardtitle: "AI Spy",
         href: "ai",
         svg: "ai.svg",
         details: {
-          title: "AI Quiz Game",
+          title: "AI Spy",
           subtitle:
             "Wizard of OZ prototype of an AI driven Quiz game for drivers in level 3 Autonomous Vehicles.",
           img: "car.jpg",
           paragraphs: [
             {
-              title: "To be written",
+              title: "Summary",
               content:
-                "Aliquam pulvinar, diam ut condimentum feugiat, ante velit tincidunt sapien, quis hendrerit augue lacus rhoncus erat. Nullam fringilla sagittis lectus sit amet tempor. Phasellus quis urna scelerisque, faucibus ante nec, ullamcorper diam. Curabitur laoreet orci felis, vitae tempor sem accumsan sed. Donec eget tristique nibh. Maecenas sollicitudin justo nec risus cursus pharetra. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla metus ex, scelerisque sed ultricies nec, condimentum vitae tortor. Cras tempus mollis ex quis accumsan. Mauris ut auctor enim, sed lobortis tortor. Phasellus tempor quam vel elit convallis venenatis. Sed suscipit nunc vel nulla porta, a placerat mi ornare.",
+                `AI Spy is the result of a course project in Human Centered Design. The project description was to create a service for Drivers of autonomous vehicles (AV)
+                 at level 3. AV at this level are considered to be the most dangerous because they are autonomous enough to be driven with out the driver steering, while still being
+                 in need of driver assistance. Meaning that drivers can never lose their situational awareness (SA). The problem becomes one of providing drivers with ways of 
+                 conducting other, meaningful, tasks while retaining their SA in situations where the AV handle routine operations. The result was an AI driven quiz game 
+                 which uses the vehicle's modes of input to drive a quiz game based on the surrounding environment. Aimed at entertaining the driver while preserving the SA.
+                `
             },
+/*             {
+              title: "The intended user",
+              content: 
+              `We argued that longer drives would have a greater impact on the driver losing their SA than shorter drives. This coupled with
+                Thus we wanted to create a way of both alleviating 
+              the potential bordedom of long trips as well as keeping the driver's eyes on the road. 
+              `
+            },
+            {
+              title: "The design process",
+              content: 
+              `
+              We followed a common user centered process in Daniel Nass's Double Diamond. To this we added aspects of Human Centered Design (HCD) in that we also looked at the user
+              in a context. Driving is a unique context and differs greatly from contexts that are more common such as that of browsing a website on your PC or phone. 
+              `
+            },
+            {
+              title: "Results",
+              content: 
+              `The results
+              `
+            },
+            {
+              title: "What comes next?",
+              content: 
+              `Our hypothesis was that by engaging drivers in a game where they have to keep their eyes on their surroundings, their SA will be fully intact or at least less
+              affected compared with tasks on which drivers fully look away from the road. This hypothesis would have needed testing beyond the conceptual and plausible stages
+               Not only to affirm that users are alleviated from boredom and maintain their SA, but also to ensure that the game does not harm other aspects of the driver's
+               ability to safely manouver the vehicle. One possible harmful aspect is that of bounded cognition. Driving requires several cognitive processes such as eye-hand 
+               coordination, decision making, visual and auditotory perception and many others. It is unclear how the added cognitive load of having to answer questions affect
+               the driver's ability to safely take over for the vehicle. Studies suggest that talking on the phone while driving, hands free or not, affect time to reaction in
+               drivers. It is not unlikely that answering questions in an conversational manner would likewise affect time to reaction.
+              `
+            } */
   
           ],
         },
       },
-      {
+/*       {
         cardtitle: "toy renter app",
         href: "app",
         svg: "renter.svg",
@@ -272,8 +328,8 @@ const resumeData = {
               },
           ],
         },
-      },
-      {
+      }, */
+/*       {
         cardtitle: "trending Movies",
         href: "trending",
         svg: "trending.svg",
@@ -295,7 +351,7 @@ const resumeData = {
             },
           ],
         },
-      },
+      }, */
     ],
   },
 
