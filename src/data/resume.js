@@ -37,7 +37,7 @@ const resumeData = {
               title: "Project description",
               content:
                 `
-                In this ongoing project, I redesign the real estate analysis and management information system "VD Pro". Aiming to preserving the sound foundation while working to increase the User Experience to meet modern standards, I work closely with the product owner, a part time UX resource and the developers in a user centric design process, iteratively making the product better. We routinely engage our users to gain insight into their world to create valuable solutions. We also conduct democratic activities to spread our insight to the whole company and harness the potential of the collective experience of a company with over 30 years in the trade.
+                In this ongoing project, I redesign the real estate analysis and management information system "VD Pro". Aiming to preserve the sound foundation while working to increase the User Experience to meet modern standards, I work closely with the product owner, a part time UX resource and the developers in a user centric design process, iteratively making the product better. We routinely engage our users to gain insight into their world to create valuable solutions. We also conduct democratic activities to spread our insight to the whole company and harness the potential of the collective experience of a company with over 30 years in the trade.
                 `,
             },
             {
