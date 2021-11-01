@@ -31,7 +31,7 @@ const resumeData = {
           subtitle:
             "A Real estate analysis and management information system",
           img: "vdpro/Prop.png",
-          carousel: ["vdpro/Search.png", "vdpro/Prop.png", "vdpro/Owner.png", "vdpro/HG.png"],
+          carousel: ["vdpro/Search.jpg", "vdpro/Prop.jpg", "vdpro/Owner.jpg", "vdpro/HG.jpg"],
           paragraphs: [
             {
               title: "Project description",
@@ -44,14 +44,14 @@ const resumeData = {
               title: "What is VD Pro",
               content:
                 `
-                VD Pro is a web-based tool to look up and analyze any of the around 3.3 million real estate properties in Sweden. Users can directly access any property and read up on its current state as well as take part of visualisations and key values provided to aid decision making. Users can also find properties that match certain criteria to get a better understanding of the real estate market. The tool also comes with a property valuation tool for properties. This makes VD Pro a powerful tool that attract many kinds of users with different needs. 
+                VD Pro is a web-based tool to look up and analyze any of the around 3.3 million real estate properties in Sweden. Users can directly access any property and read up on its current state as well as take part of visualisations and key values provided to aid decision making. Users can also find properties that match certain criteria to get a better understanding of the real estate market. The tool also comes with a property valuation tool for discounted cashflow valuations. This makes VD Pro a powerful tool that attract many kinds of users with different needs. 
                 `,
             },
             {
               title: "Skills I have honed",
               content:
                 `
-                During my time here, I have gained experience in designing for web, using- and improving on a design system, conducting interviews and contextual inquiry, managing workshops to analyze data, user interface design and usability testing. Besides the experience gathered from designing for the web, I have designed the behavior and look & feel of search functionality aimed specifically to enable users to find relevant results across multiple categories with large volumes of data. This while maintaining the ability to quickly scan search results. What is unique to this context is that results that are similar to the intended result are not relevant, only the intended result, but we do not know beforehand exactly what information the user have access to specify their query.
+                During my time here, I have gained experience in designing for web, using- and improving on a design system, conducting interviews and contextual inquiry, managing workshops to analyze data, user interface design and usability testing. Besides the experience gathered from designing for the web, I have designed the behavior and look & feel of search functionality aimed specifically to enable users to find relevant results across multiple categories with large volumes of data. This while maintaining the ability to quickly scan search results. What is uncommon to this context is that results that are similar to the intended result are not relevant, only the intended result, but we do not know beforehand exactly what information the user have access to specify their query.
                 `,
             },
             {
@@ -79,7 +79,7 @@ const resumeData = {
             {
               title: "Summary",
               content:
-                `For the master’s thesis, my thesis partner and I worked with Sweco to provide them with guidelines and design alternatives for a system of user interfaces which afford cross-device interaction. The aim of the thesis was to enable collaboration between different actors interacting with a building information model and provide a fun experience while doing so. We conducted a design thinking inspired design process where we went through the empathize, define, ideate, prototype and evaluation phases. This involved conducting interviews with stakeholders at the company to find pain points in current tools as well as factors that hindered collaboration. This data was then analyzed to provide insights that would be used to guide the design choices in the design and prototype phase. We also investigated interaction techniques presented in academic literature, providing us with a list of both common and not so conventional interaction techniques for cross-device interaction specifically. The design was created in an iterative manner with many small evaluations helping to work out kinks and faults in the design. Finally, the system of interfaces, made up of one interface for smartphone form factors and one interface for desktop/laptop form factors, was evaluated with stakeholders from the company to see how well the system of interfaces performed in terms of usability and user experience.`,
+                `For the master’s thesis, my thesis partner and I worked with Sweco to provide them with guidelines and design alternatives for a system of user interfaces which afford cross-device interaction. The aim of the thesis was to enable collaboration between different actors interacting with a building information model and provide a fun experience while doing so. We conducted a design thinking inspired design process where we went through the empathize, define, ideate, prototype and evaluation phases. This involved conducting interviews with stakeholders at the company to find pain points in current tools as well as factors that hindered collaboration. This data was then analyzed to provide insights that would be used to guide the design choices in the design and prototype phase. We also investigated interaction techniques presented in academic literature, providing us with a list of both common and not so conventional interaction techniques for cross-device interaction specifically. The designs were created in an iterative manner with many small evaluations helping to work out kinks and faults in the design. Finally, the system of interfaces, made up of one interface for smartphone form factors and one interface for desktop/laptop form factors, were evaluated with stakeholders from the company to see how well the system of interfaces performed in terms of usability and user experience.`,
             },
             {
               title: "The problem",
@@ -289,7 +289,7 @@ const resumeData = {
           ],
         },
       },
-/*       {
+      {
         cardtitle: "toy renter app",
         href: "app",
         svg: "renter.svg",
@@ -328,7 +328,7 @@ const resumeData = {
               },
           ],
         },
-      }, */
+      },
 /*       {
         cardtitle: "trending Movies",
         href: "trending",
