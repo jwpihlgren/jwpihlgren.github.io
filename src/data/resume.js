@@ -198,7 +198,7 @@ const resumeData = {
           ],
         },
       },
-/*       {
+      {
         cardtitle: "noisemeter",
         href: "noisemeter",
         svg: "watch.svg",
@@ -230,7 +230,7 @@ const resumeData = {
   
           ],
         },
-      }, */
+      },
       {
         cardtitle: "AI Spy",
         href: "ai",
